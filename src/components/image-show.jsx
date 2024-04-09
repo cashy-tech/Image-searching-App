@@ -1,4 +1,4 @@
-import "./imagelist.css";
+import "./style.css";
 
 function ImageShow({ image }) {
   return (

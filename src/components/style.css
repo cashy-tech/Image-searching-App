@@ -1,0 +1,35 @@
+.search-bar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #270c47;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+.label {
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 5px;
+}
+.input {
+  color: #444;
+}
+.image-list {
+  columns: 6 200px;
+  column-gap: 10px;
+}
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}

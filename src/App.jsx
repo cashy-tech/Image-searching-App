@@ -5,6 +5,7 @@ import searchImages from "./api";
 
 
 
+
 function App() {
   const [images, setImages] = useState([]);
 
@@ -14,7 +15,7 @@ function App() {
     setImages(result);
   };
   return (
-    <div>
+    <div className="app">
       <SearchBar onSubmit={handleSubmit} />
       <ImageList images={images} />
     </div>
